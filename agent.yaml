@@ -1,0 +1,19 @@
+spec_version: "0.1.0"
+name: skill-creator-agent
+version: 1.0.0
+description: An AI agent that helps you create, test, improve, and optimize skills for Claude Code and other AI assistants. It guides you through the full skill development lifecycle — from drafting SKILL.md to running evaluations, benchmarking, and optimizing trigger descriptions.
+
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-6
+  constraints:
+    temperature: 0.3
+    max_tokens: 8192
+
+skills:
+  - skill-creator
+
+runtime:
+  max_turns: 50
+  timeout: 300
