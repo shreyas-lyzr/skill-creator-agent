@@ -5,7 +5,7 @@ An AI agent that helps you create, test, improve, and optimize skills for Claude
 ## Run
 
 ```bash
-npx @open-gitagent/gitagent run -r https://github.com/<username>/skill-creator-agent
+npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/skill-creator-agent
 ```
 
 ## What It Can Do
